@@ -19,23 +19,4 @@ func main() {
 	}
 	//cfg.AppVersion = AppVersion
 	app.Run(cfg)
-	//
-	//code, err := qr.Encode("erqwerqw dfg sdfgsdf gsdfgsdfgsdfgsdfgsdfgdf sdfg sdf sdf sdfg sdfgsdfgsdfdf sdfg sdf sdf gsdfgsdfger", qr.Q)
-	//if err != nil {
-	//	return
-	//}
-	//
-	//data := code.PNG()
-	//file, err := os.Create("output.png")
-	//if err != nil {
-	//	log.Fatal(err)
-	//}
-	//defer file.Close() // Обязательно закрываем файл в конце
-	//
-	//// Записываем байты
-	//_, err = file.Write(data)
-	//if err != nil {
-	//	log.Fatal(err)
-	//}
-
 }
