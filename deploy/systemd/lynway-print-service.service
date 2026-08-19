@@ -1,0 +1,22 @@
+[Unit]
+Description=Lynway WMS print daemon
+After=network.target network-online.target
+Requires=network-online.target
+
+[Service]
+Type=simple
+
+ExecStart=/usr/local/bin/lynway-print-service
+WorkingDirectory=/usr/local/bin
+
+EnvironmentFile=/etc/lwprint/.env
+
+Restart=always
+RestartSec=5s
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=lwprint
+
+[Install]
+WantedBy=multi-user.target
