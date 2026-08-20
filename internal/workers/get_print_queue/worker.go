@@ -10,8 +10,8 @@ import (
 	"github.com/mlplabs/lynway-print-service/internal/model"
 	"github.com/mlplabs/lynway-print-service/internal/usecases"
 
-	whs "github.com/mlplabs/keeper/pkg/client"
-	"github.com/mlplabs/keeper/pkg/dto"
+	whs "github.com/mlplabs/lynway-wms/pkg/client"
+	"github.com/mlplabs/lynway-wms/pkg/dto"
 )
 
 type GetPrintQueueWorker struct {

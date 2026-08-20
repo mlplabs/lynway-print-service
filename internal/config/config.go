@@ -4,7 +4,7 @@ import (
 	"github.com/mlplabs/lynway-print-service/internal/adapters/clients/ipp"
 	"github.com/mlplabs/lynway-print-service/internal/workers/get_print_queue"
 
-	whs "github.com/mlplabs/keeper/pkg/client"
+	whs "github.com/mlplabs/lynway-wms/pkg/client"
 )
 
 type (

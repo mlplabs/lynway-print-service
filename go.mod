@@ -2,7 +2,7 @@ module github.com/mlplabs/lynway-print-service
 
 go 1.25.9
 
-replace github.com/mlplabs/keeper => ../../mlplabs/keeper
+replace github.com/mlplabs/lynway-wms => github.com/mlplabs/lynway-wms v0.0.1
 
 require (
 	github.com/caarlos0/env/v6 v6.10.1
@@ -13,7 +13,7 @@ require (
 	github.com/hiventive/go-ipp v1.5.2
 	github.com/joho/godotenv v1.5.1
 	github.com/mlplabs/common-go-pkg v0.0.6
-	github.com/mlplabs/keeper v0.0.0-00010101000000-000000000000
+	github.com/mlplabs/lynway-wms v0.0.0-00010101000000-000000000000
 	github.com/swaggo/http-swagger/v2 v2.0.2
 	golang.org/x/image v0.45.0
 	golang.org/x/text v0.41.0

@@ -45,6 +45,8 @@ github.com/mailru/easyjson v0.7.6 h1:8yTIVnZgCoiM1TgqoeTl+LfU5Jg6/xL3QhGQnimLYnA
 github.com/mailru/easyjson v0.7.6/go.mod h1:xzfreul335JAWq5oZzymOObrkdz5UnU4kGfJJLY9Nlc=
 github.com/mlplabs/common-go-pkg v0.0.6 h1:eBNumkUvtK67WDhXxmW7PAPGq7EJ+pwRrFdhJFuiq9E=
 github.com/mlplabs/common-go-pkg v0.0.6/go.mod h1:/44TFvnUbBCe85zYS2LvMc2Jryd17xfcUdqSfNR3dfQ=
+github.com/mlplabs/lynway-wms v0.0.1 h1:3SoN/abel0FGkzgJaiGWfGSsTQBvqkCaBlL2mzMHsm8=
+github.com/mlplabs/lynway-wms v0.0.1/go.mod h1:WtuJdyjHeLRu2N8egOX2pNJDsmjG81KBDV0cePAdVyk=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e h1:fD57ERR4JtEqsWbfPhv4DMiApHyliiK5xCTNVSPiaAs=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
